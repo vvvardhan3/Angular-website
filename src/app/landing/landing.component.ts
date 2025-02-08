@@ -8,7 +8,7 @@ import { NgxTypewriterComponent } from '@omnedia/ngx-typewriter';
   styleUrl: './landing.component.css',
 })
 export class LandingComponent {
-  words: string[] = [
-    'Vishnu Vardhan',
+  word: string[] = [
+    'I am',
   ];
 }
