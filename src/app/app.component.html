@@ -1,2 +1,27 @@
-<app-header></app-header>
+<nav class="sticky top-0">
+  <div class="lg:mx-52 2xl:mx-72 border-b-2 bg-gray-50/25">
+    <ul class="flex justify-between p-4">
+      <li><a class="{{ styles }}" routerLink="/home">Home</a></li>
+      <li><a class="{{ styles }}" routerLink="/education">Education </a></li>
+      <li><a class="{{ styles }}" routerLink="/projects">Projects </a></li>
+      <li>
+        <a class="{{ styles }}" routerLink="/work-experience">
+          Work Experience
+        </a>
+      </li>
+      <li><a class="{{ styles }}" routerLink="/skills">Skills</a></li>
+      <li>
+        <a class="{{ styles }}" routerLink="/certifications">Certifications</a>
+      </li>
+      <li><a class="{{ styles }}" routerLink="/contact">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
 <app-landing></app-landing>
+<app-education></app-education>
+<app-work-experience></app-work-experience>
+<app-projects></app-projects>
+<app-skills></app-skills>
+<app-certifications></app-certifications>
+<app-contact></app-contact>
