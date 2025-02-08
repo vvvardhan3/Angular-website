@@ -6,12 +6,13 @@ import { CertificationsComponent } from './certifications/certifications.compone
 import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @Component({
   selector: 'app-root',
-  imports: [LandingComponent,EducationComponent,ContactComponent,CertificationsComponent,ProjectsComponent,SkillsComponent,WorkExperienceComponent],
+  imports: [RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

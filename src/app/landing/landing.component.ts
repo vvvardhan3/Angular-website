@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NgxTypewriterComponent } from '@omnedia/ngx-typewriter';
+// import { NgxTypewriterComponent } from '@omnedia/ngx-typewriter';
 
 @Component({
   selector: 'app-landing',
-  imports: [NgxTypewriterComponent],
+  imports: [],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.css',
 })
