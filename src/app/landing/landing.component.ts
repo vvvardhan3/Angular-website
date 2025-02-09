@@ -4,7 +4,7 @@ import { ContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-landing',
-  imports: [ContactComponent],
+  imports: [],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.css',
 })
